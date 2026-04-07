@@ -22,3 +22,20 @@ button {
   margin-top: 20px;
   font-size: 18px;
 }
+body {
+  margin: 0;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+
+  background: linear-gradient(-45deg, #ff512f, #dd2476, #ff8c00, #ff0000);
+  background-size: 400% 400%;
+  animation: fireBG 6s ease infinite;
+}
+
+@keyframes fireBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
