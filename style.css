@@ -39,3 +39,14 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+#animationBox {
+  font-size: 50px;
+  margin-top: 40px;
+  position: relative;
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% { left: -100px; }
+  100% { left: 100%; }
+}
